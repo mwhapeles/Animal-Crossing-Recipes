@@ -53,7 +53,7 @@ const prevButton = document.querySelector("img.prev");
 const randButton = document.querySelector("img.random");
 
 // listen for clicks on next button
-nextButton.addEventListener("click", function () {
+nextButton.addEventListener("click", () => {
   // update, then increase item number with each click
   itemNumber = itemNumber + 1;
   
@@ -71,7 +71,7 @@ nextButton.addEventListener("click", function () {
 });
   
 // listen for clicks on previous button
-prevButton.addEventListener("click", function () {
+prevButton.addEventListener("click", () => {
   // update, then DEcrease item number with each click
   itemNumber = itemNumber - 1;
   
@@ -88,7 +88,7 @@ prevButton.addEventListener("click", function () {
 });
 
 // listen for clicks on random button
-randButton.addEventListener('click', function() {
+randButton.addEventListener('click', () => {
   
   // generate random number, for total number, of items (data)
   randomNumber = Math.floor ( Math.random() * data.length );
@@ -101,10 +101,12 @@ randButton.addEventListener('click', function() {
 });
 
 // listen for keypress next
-document.addEventListener('keyup', function(){
+document.addEventListener('keyup', (event) => {
   
+  console.log(event);
+
   // Next Right Arrow  
-  if ( event.keyCode === 39 ) {
+  if ( event.key === "ArrowRight" ) {
    
    // update, then increase item number with each click
   itemNumber = itemNumber + 1;
@@ -123,7 +125,7 @@ document.addEventListener('keyup', function(){
   }
   
   // Prev Left Arrow
-  if ( event.keyCode === 37 ) {
+  if ( event.key === "ArrowLeft" ) {
   
    // update, then DEcrease item number with each click
   itemNumber = itemNumber - 1;
@@ -141,7 +143,7 @@ document.addEventListener('keyup', function(){
   }
   
   // Random Spacebar
-  if ( event.keyCode === 32) {
+  if ( event.key === " ") {
     
     // generate random number, for total number, of items (data)
     randomNumber = Math.floor ( Math.random() * data.length );
