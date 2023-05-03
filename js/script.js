@@ -103,7 +103,8 @@ randButton.addEventListener('click', () => {
 // listen for keypress next
 document.addEventListener('keyup', (event) => {
   
-  console.log(event);
+  // check-check: What key was pressed?
+  // console.log(event);
 
   // Next Right Arrow  
   if ( event.key === "ArrowRight" ) {
