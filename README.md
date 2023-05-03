@@ -1,2 +1,3 @@
-# quote-show-winter
-Quote Show Winter Quarter
+# Quote Carousel
+
+A carousel of quotes.
