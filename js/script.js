@@ -1,24 +1,20 @@
 /* Data to Show*/
 const data = [
   {
-   quote: `“Be like a mountain.”`, 
-   emoji: '🗻', 
-   image: `url(assets/mountain.jpg)`
+  
+   image: `url(assets/aji-fry.jpg)`
   }, 
   {
-   quote: `“Brave the oceans.”`, 
-   emoji: '🌊', 
-   image: `url(assets/ocean.jpg)`
+  
+   image: `url(assets/Amalgia+Gratin+(Turkey+Day).png)`
   },  
   {
-   quote: `“Grow like a tree.”`, 
-   emoji: '🌲' , 
-   image: `url(assets/tree.jpg)`
+  
+   image: `url(assets/Amalgia+Seafood+Salad.png)`
   },
   {
-    quote: `“We'll be ok now.”`, 
-    emoji: '👌', 
-    image: `url(assets/forest.jpg)`
+  
+    image: `url(assets/Anchoas al ajillo.jpg)`
   }
 ];
 
