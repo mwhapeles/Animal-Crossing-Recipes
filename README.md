@@ -10,3 +10,10 @@
 
 - Images 
 - Seafood Salad URL (https://images.squarespace-cdn.com/content/v1/5d24db8cffa0800001110423/e76373ed-b97e-467a-bd0d-8aead77e9c32/Amalgia+Seafood+Salad.png)
+Majority of recipes: Nintendo Life URL(https://www.nintendolife.com/guides/animal-crossing-cooking-recipes-how-to-cook-in-new-horizons-full-cooking-recipes-list)
+  - Brown Sugar Image 
+  - Aji Fry
+  - Anchoas al ajillo
+  - Apple Pie
+  - Apple Tart
+  - Baked Potato
