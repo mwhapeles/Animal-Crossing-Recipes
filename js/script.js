@@ -1,4 +1,5 @@
 /* Data to Show*/
+//console.log('hello');
 const data = [
   {
   
@@ -22,18 +23,20 @@ const data = [
 Quote and Emoji
 */
 // blockquote
-const quote = document.querySelector('blockquote');
+//const quote = document.querySelector('blockquote');
 // emoji
-const emoji = document.querySelector('p');
+//const emoji = document.querySelector('p');
 // background
-const bgImage = document.querySelector('body');
+//const bgImage = document.querySelector('body');
+
+const recipie = document.querySelector('img');
 
 // Check-Check: change text
-quote.innerHTML = "Colin is quotable.";
+//quote.innerHTML = "Hello world";
 // Check-Check: change emoji text
-emoji.innerHTML = "👍️";
+//emoji.innerHTML = "👍️";
 // Check-Check: background image
-bgImage.style.backgroundImage= 'url(/assets/mountain.jpg)';
+//bgImage.style.backgroundImage= 'url(/assets/mountain.jpg)';
 
 /*
  * Navigate to Items with Event Listeners
@@ -60,10 +63,10 @@ nextButton.addEventListener("click", () => {
   }
 
   // display data based on array index
-  quote.innerHTML = data[itemNumber].quote;
-  emoji.innerHTML = data[itemNumber].emoji;
-  bgImage.style.backgroundImage = data[itemNumber].image;
-  
+ // quote.innerHTML = data[itemNumber].quote;
+  //emoji.innerHTML = data[itemNumber].emoji;
+  //bgImage.style.backgroundImage = data[itemNumber].image;
+  recipie.innerHTML = data[itemNumber].recipie;
 });
   
 // listen for clicks on previous button

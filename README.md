@@ -17,3 +17,4 @@ Majority of recipes: Nintendo Life URL(https://www.nintendolife.com/guides/anima
   - Apple Pie
   - Apple Tart
   - Baked Potato
+  - Barred Knifejaw
