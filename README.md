@@ -6,6 +6,11 @@
 - Links to websites 
 - All Recipes URL(https://www.polygon.com/animal-crossing-new-horizons-switch-acnh-guide/22738532/cook-food-diy-recipes-unlock-ingredients-crops-farming-carrot-potato-pumpkin-sugarcane-tomato-wheat)
 
+- Font
+- Font Family: Nunito
+ * Designed by: Vernon Adams, Cyreal, Jacques Le Bailly
+ * URL: https://www.fontshare.com/fonts/nunito
+ * © 2023 Indian Type Foundry 
 
 
 - Images 
