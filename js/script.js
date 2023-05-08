@@ -81,9 +81,10 @@ prevButton.addEventListener("click", () => {
   }  
   
   // display data based on array index
-  quote.innerHTML = data[itemNumber].quote;
-  emoji.innerHTML = data[itemNumber].emoji;
-  bgImage.style.backgroundImage = data[itemNumber].image;
+  //quote.innerHTML = data[itemNumber].quote;
+ // emoji.innerHTML = data[itemNumber].emoji;
+  //bgImage.style.backgroundImage = data[itemNumber].image;
+  recipie.innerHTML = data[itemNumber].recipie;
 });
 
 // listen for clicks on random button
@@ -93,9 +94,9 @@ randButton.addEventListener('click', () => {
   randomNumber = Math.floor ( Math.random() * data.length );
   
   // display data based random number
-  quote.innerHTML = data[randomNumber].quote;
-  emoji.innerHTML = data[randomNumber].emoji;
-  bgImage.style.backgroundImage = data[randomNumber].image;
+ recipie.innerHTML = data[randomNumber].recipie;
+  //emoji.innerHTML = data[randomNumber].emoji;
+  //bgImage.style.backgroundImage = data[randomNumber].image;
   
 });
 
@@ -118,9 +119,10 @@ document.addEventListener('keyup', (event) => {
   }
 
   // display data based on array index
-  quote.innerHTML = data[itemNumber].quote;
-  emoji.innerHTML = data[itemNumber].emoji;
-  bgImage.style.backgroundImage = data[itemNumber].image;
+  //quote.innerHTML = data[itemNumber].quote;
+  //emoji.innerHTML = data[itemNumber].emoji;
+  //bgImage.style.backgroundImage = data[itemNumber].image;
+  recipie.innerHTML = data[itemNumber].recipie;
     
   }
   
@@ -137,10 +139,11 @@ document.addEventListener('keyup', (event) => {
   }  
   
   // display data based on array index
-  quote.innerHTML = data[itemNumber].quote;
-  emoji.innerHTML = data[itemNumber].emoji;
-  bgImage.style.backgroundImage = data[itemNumber].image;
-  }
+  //quote.innerHTML = data[itemNumber].quote;
+  //emoji.innerHTML = data[itemNumber].emoji;
+  //bgImage.style.backgroundImage = data[itemNumber].image;
+  recipie.innerHTML = data[itemNumber].recipie;  
+}
   
   // Random Spacebar
   if ( event.key === " ") {
@@ -149,10 +152,10 @@ document.addEventListener('keyup', (event) => {
     randomNumber = Math.floor ( Math.random() * data.length );
 
     // display data based random number
-    quote.innerHTML = data[randomNumber].quote;
-    emoji.innerHTML = data[randomNumber].emoji;
-    bgImage.style.backgroundImage = data[randomNumber].image;
-  
+    //quote.innerHTML = data[randomNumber].quote;
+    //emoji.innerHTML = data[randomNumber].emoji;
+    //bgImage.style.backgroundImage = data[randomNumber].image;
+    recipie.innerHTML = data[itemNumber].recipie;
   }
   
 });
