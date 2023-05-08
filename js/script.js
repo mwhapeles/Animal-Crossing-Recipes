@@ -25,11 +25,11 @@ Quote and Emoji
 // blockquote
 //const quote = document.querySelector('blockquote');
 // emoji
-//const emoji = document.querySelector('p');
+const card = document.querySelector('p');
 // background
 //const bgImage = document.querySelector('body');
 
-const recipie = document.querySelector('img');
+//const card = document.querySelector('img');
 
 // Check-Check: change text
 //quote.innerHTML = "Hello world";
@@ -66,7 +66,7 @@ nextButton.addEventListener("click", () => {
  // quote.innerHTML = data[itemNumber].quote;
   //emoji.innerHTML = data[itemNumber].emoji;
   //bgImage.style.backgroundImage = data[itemNumber].image;
-  recipie.innerHTML = data[itemNumber].recipie;
+ // card.innerHTML = data[itemNumber].card;
 });
   
 // listen for clicks on previous button
@@ -84,7 +84,7 @@ prevButton.addEventListener("click", () => {
   //quote.innerHTML = data[itemNumber].quote;
  // emoji.innerHTML = data[itemNumber].emoji;
   //bgImage.style.backgroundImage = data[itemNumber].image;
-  recipie.innerHTML = data[itemNumber].recipie;
+  card.innerHTML = data[itemNumber].card;
 });
 
 // listen for clicks on random button
@@ -94,7 +94,7 @@ randButton.addEventListener('click', () => {
   randomNumber = Math.floor ( Math.random() * data.length );
   
   // display data based random number
- recipie.innerHTML = data[randomNumber].recipie;
+  card.innerHTML = data[itemNumber].card;
   //emoji.innerHTML = data[randomNumber].emoji;
   //bgImage.style.backgroundImage = data[randomNumber].image;
   
@@ -104,7 +104,7 @@ randButton.addEventListener('click', () => {
 document.addEventListener('keyup', (event) => {
   
   // check-check: What key was pressed?
-  // console.log(event);
+  console.log(event);
 
   // Next Right Arrow  
   if ( event.key === "ArrowRight" ) {
@@ -122,7 +122,7 @@ document.addEventListener('keyup', (event) => {
   //quote.innerHTML = data[itemNumber].quote;
   //emoji.innerHTML = data[itemNumber].emoji;
   //bgImage.style.backgroundImage = data[itemNumber].image;
-  recipie.innerHTML = data[itemNumber].recipie;
+  card.innerHTML = data[itemNumber].card;
     
   }
   
@@ -142,7 +142,7 @@ document.addEventListener('keyup', (event) => {
   //quote.innerHTML = data[itemNumber].quote;
   //emoji.innerHTML = data[itemNumber].emoji;
   //bgImage.style.backgroundImage = data[itemNumber].image;
-  recipie.innerHTML = data[itemNumber].recipie;  
+  card.innerHTML = data[itemNumber].card; 
 }
   
   // Random Spacebar
@@ -155,7 +155,7 @@ document.addEventListener('keyup', (event) => {
     //quote.innerHTML = data[randomNumber].quote;
     //emoji.innerHTML = data[randomNumber].emoji;
     //bgImage.style.backgroundImage = data[randomNumber].image;
-    recipie.innerHTML = data[itemNumber].recipie;
+    card.innerHTML = data[itemNumber].card;
   }
   
 });

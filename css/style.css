@@ -19,10 +19,15 @@ body {
 
 /* Apply Font */
 main {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Nunito';
   font-size: 5vmin;
   text-align: center;
   
   /* Add contrast to text */
   background-color: rgba(255, 255, 255, 0.25);
+}
+
+img {
+max-width: 70%;
+max-height: 90%;
 }
