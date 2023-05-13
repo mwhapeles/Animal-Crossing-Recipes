@@ -1,43 +1,41 @@
 /* Data to Show*/
 const data = [
   {
-   //quote: `“Be like a mountain.”`, 
+
    backgroundImage: `url(assets/backgroundImage.jpg)`,
    image: `url(assets/appleTart.png)`
   }, 
   {
-   //quote: `“Brave the oceans.”`, 
-   image: `url(assets/AppleTart.jpg)`,
+ 
+   image: `url(assets/clamChowder.png)`,
    backgroundImage: `url(assets/backgroundImage.jpg)`
 
   },  
   {
-   //quote: `“Grow like a tree.”`, 
-   //emoji: '🌲' , 
+
    backgroundImage: `url(assets/backgroundImage.jpg)`,
-   image: `url(assets/ClamChowder.jpg)`
+   image: `url(assets/anchoasAlAjillo.png)`
   },
   {
-    //quote: `“We'll be ok now.”`, 
-   // emoji: '👌', 
+  
     backgroundImage: `url(assets/backgroundImage.jpg)`,
-    image: `url(assets/apple-pie.large.jpg)`
+    image: `url(assets/applePie.png)`
   }, 
+
   {
-   // quote: `"It's a good day to be an eagle!"`,
-    //emoji: `🦅`, 
-    backgroundImage: `url(assets/backgroundImage.jpg)`,
-    image: `url(assets/Amalgia+Gratin+(Turkey+Day).png)`
-  }, 
-  {
-    //quote: `"I am a risk"`,
-    //emoji: `🦅`, 
+  
     backgroundImage: `url(assets/backgroundImage.jpg)`,
     image: `url(assets/bakedPotato.png)`
   },
   {backgroundImage: `url(assets/backgroundImage.jpg)`,
   image: `url(assets/wheatDIY.png)`
-}
+},
+{
+ 
+  image: `url(assets/gratin.png)`,
+  backgroundImage: `url(assets/backgroundImage.jpg)`
+
+ }
 ];
 
 /*
