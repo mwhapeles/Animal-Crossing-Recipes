@@ -23,3 +23,5 @@ Majority of recipes: Nintendo Life URL(https://www.nintendolife.com/guides/anima
   - Apple Tart
   - Baked Potato
   - Barred Knifejaw
+  - Pointing Fingers
+- Background image URL (https://www.freepik.com/vectors/pink-gingham)

@@ -1,21 +1,39 @@
 /* Data to Show*/
-//console.log('hello');
 const data = [
   {
-  backgroundImage: `url(assets/animal crossing background.avif)`,
-   image: `url(assets/aji-fry.jpg)`
+   //quote: `“Be like a mountain.”`, 
+   backgroundImage: `url(assets/backgroundImage.jpg)`,
+   image: `url(assets/Amalgia+Seafood+Salad.png)`
   }, 
   {
-    backgroundImage: `url(assets/animal crossing background.avif)`,
-   image: `url(assets/Amalgia+Gratin+(Turkey+Day).png)`
+   //quote: `“Brave the oceans.”`, 
+   image: `url(assets/AppleTart.jpg)`,
+   backgroundImage: `url(assets/backgroundImage.jpg)`
+
   },  
   {
-    backgroundImage: `url(assets/animal crossing background.avif)`,
-   image: `url(assets/Amalgia+Seafood+Salad.png)`
+   //quote: `“Grow like a tree.”`, 
+   //emoji: '🌲' , 
+   backgroundImage: `url(assets/backgroundImage.jpg)`,
+   image: `url(assets/ClamChowder.jpg)`
   },
   {
-    backgroundImage: `url(assets/animal crossing background.avif)`,
-    image: `url(assets/Anchoas al ajillo.jpg)`
+    //quote: `“We'll be ok now.”`, 
+   // emoji: '👌', 
+    backgroundImage: `url(assets/backgroundImage.jpg)`,
+    image: `url(assets/apple-pie.large.jpg)`
+  }, 
+  {
+   // quote: `"It's a good day to be an eagle!"`,
+    //emoji: `🦅`, 
+    backgroundImage: `url(assets/backgroundImage.jpg)`,
+    image: `url(assets/Amalgia+Gratin+(Turkey+Day).png)`
+  }, 
+  {
+    //quote: `"I am a risk"`,
+    //emoji: `🦅`, 
+    backgroundImage: `url(assets/backgroundImage.jpg)`,
+    image: `url(assets/BakedPotato.jpg)`
   }
 ];
 
@@ -23,20 +41,20 @@ const data = [
 Quote and Emoji
 */
 // blockquote
-//const quote = document.querySelector('blockquote');
+const quote = document.querySelector('blockquote');
 // emoji
-const card = document.querySelector('img');
+//const emoji = document.querySelector('p');
+//cards
+const cards = document.querySelector('main');
 // background
-//const bgImage = document.querySelector('body');
-
-//const card = document.querySelector('img');
+const bgImage = document.querySelector('body');
 
 // Check-Check: change text
-//quote.innerHTML = "Hello world";
+
 // Check-Check: change emoji text
 //emoji.innerHTML = "👍️";
 // Check-Check: background image
-//bgImage.style.backgroundImage= 'url(/assets/mountain.jpg)';
+bgImage.style.backgroundImage= 'url(assets/backgroundImage.jpg)';
 
 /*
  * Navigate to Items with Event Listeners
@@ -63,10 +81,10 @@ nextButton.addEventListener("click", () => {
   }
 
   // display data based on array index
- // quote.innerHTML = data[itemNumber].quote;
-  //emoji.innerHTML = data[itemNumber].emoji;
-  //bgImage.style.backgroundImage = data[itemNumber].image;
-  card.innerHTML = data[itemNumber].card;
+  quote.innerHTML = data[itemNumber].quote;
+ // emoji.innerHTML = data[itemNumber].emoji;
+  bgImage.style.backgroundImage = data[itemNumber].backgroundImage;
+  cards.style.content = data[itemNumber].image;
 });
   
 // listen for clicks on previous button
@@ -81,10 +99,10 @@ prevButton.addEventListener("click", () => {
   }  
   
   // display data based on array index
-  //quote.innerHTML = data[itemNumber].quote;
- // emoji.innerHTML = data[itemNumber].emoji;
-  //bgImage.style.backgroundImage = data[itemNumber].image;
-  card.innerHTML = data[itemNumber].card;
+  quote.innerHTML = data[itemNumber].quote;
+  //emoji.innerHTML = data[itemNumber].emoji;
+  bgImage.style.backgroundImage = data[itemNumber].backgroundImage;
+  cards.style.content = data[itemNumber].image;
 });
 
 // listen for clicks on random button
@@ -94,9 +112,10 @@ randButton.addEventListener('click', () => {
   randomNumber = Math.floor ( Math.random() * data.length );
   
   // display data based random number
-  card.innerHTML = data[itemNumber].card;
+  //quote.innerHTML = data[randomNumber].quote;
   //emoji.innerHTML = data[randomNumber].emoji;
-  //bgImage.style.backgroundImage = data[randomNumber].image;
+  bgImage.style.backgroundImage = data[randomNumber].backgroundImage;
+  cards.style.content = data[randomNumber].image;
   
 });
 
@@ -104,7 +123,7 @@ randButton.addEventListener('click', () => {
 document.addEventListener('keyup', (event) => {
   
   // check-check: What key was pressed?
-  console.log(event);
+  // console.log(event);
 
   // Next Right Arrow  
   if ( event.key === "ArrowRight" ) {
@@ -119,10 +138,10 @@ document.addEventListener('keyup', (event) => {
   }
 
   // display data based on array index
-  //quote.innerHTML = data[itemNumber].quote;
-  //emoji.innerHTML = data[itemNumber].emoji;
-  //bgImage.style.backgroundImage = data[itemNumber].image;
-  card.innerHTML = data[itemNumber].card;
+  quote.innerHTML = data[itemNumber].quote;
+  //emoji.innerHTML = data[itemNumber].image;
+  bgImage.style.backgroundImage = data[itemNumber].backgroundImage;
+  cards.style.content = data[itemNumber].image;
     
   }
   
@@ -139,11 +158,11 @@ document.addEventListener('keyup', (event) => {
   }  
   
   // display data based on array index
-  //quote.innerHTML = data[itemNumber].quote;
+  quote.innerHTML = data[itemNumber].quote;
   //emoji.innerHTML = data[itemNumber].emoji;
-  //bgImage.style.backgroundImage = data[itemNumber].image;
-  card.innerHTML = data[itemNumber].card; 
-}
+  bgImage.style.backgroundImage = data[itemNumber].backgroundImage;
+  cards.style.content = data[itemNumber].image;
+  }
   
   // Random Spacebar
   if ( event.key === " ") {
@@ -152,10 +171,11 @@ document.addEventListener('keyup', (event) => {
     randomNumber = Math.floor ( Math.random() * data.length );
 
     // display data based random number
-    //quote.innerHTML = data[randomNumber].quote;
-    //emoji.innerHTML = data[randomNumber].emoji;
-    //bgImage.style.backgroundImage = data[randomNumber].image;
-    card.innerHTML = data[itemNumber].card;
+    quote.innerHTML = data[randomNumber].quote;
+   //emoji.innerHTML = data[randomNumber].emoji;
+    bgImage.style.backgroundImage = data[randomNumber].backgroundImage;
+    cards.style.content = data[itemNumber].image;
+  
   }
   
 });
