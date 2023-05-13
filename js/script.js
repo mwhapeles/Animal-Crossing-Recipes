@@ -3,37 +3,45 @@ const data = [
   {
 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
-   image: `url(assets/appleTart.png)`
+   image: `url(assets/appleTart.png)`,
+   audio: `url(assets/animalCrossingTalking.mp3)`
   }, 
   {
  
    image: `url(assets/clamChowder.png)`,
    backgroundImage: `url(assets/backgroundImage.jpg)`
+   ,
+   audio: `url(assets/animalCrossingTalking.mp3)`
 
   },  
   {
 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
-   image: `url(assets/anchoasAlAjillo.png)`
+   image: `url(assets/anchoasAlAjillo.png)`,
+   audio: `url(assets/animalCrossingTalking.mp3)`
   },
   {
   
     backgroundImage: `url(assets/backgroundImage.jpg)`,
-    image: `url(assets/applePie.png)`
+    image: `url(assets/applePie.png)`,
+    audio: `url(assets/animalCrossingTalking.mp3)`
   }, 
 
   {
   
     backgroundImage: `url(assets/backgroundImage.jpg)`,
-    image: `url(assets/bakedPotato.png)`
+    image: `url(assets/bakedPotato.png)`,
+    audio: `url(assets/animalCrossingTalking.mp3)`
   },
   {backgroundImage: `url(assets/backgroundImage.jpg)`,
-  image: `url(assets/wheatDIY.png)`
+  image: `url(assets/wheatDIY.png)`,
+  audio: `url(assets/animalCrossingTalking.mp3)`
 },
 {
  
   image: `url(assets/gratin.png)`,
-  backgroundImage: `url(assets/backgroundImage.jpg)`
+  backgroundImage: `url(assets/backgroundImage.jpg)`,
+  audio: `url(assets/animalCrossingTalking.mp3)`
 
  }
 ];
@@ -49,6 +57,9 @@ const quote = document.querySelector('blockquote');
 const cards = document.querySelector('main');
 // background
 const bgImage = document.querySelector('body');
+//sound
+const audio = document.querySelector('audio');
+
 
 // Check-Check: change text
 
@@ -86,6 +97,8 @@ nextButton.addEventListener("click", () => {
  // emoji.innerHTML = data[itemNumber].emoji;
   bgImage.style.backgroundImage = data[itemNumber].backgroundImage;
   cards.style.content = data[itemNumber].image;
+  audio.src = data[itemNumber].audio;
+  audio.play();
 });
   
 // listen for clicks on previous button
@@ -99,11 +112,21 @@ prevButton.addEventListener("click", () => {
     itemNumber = data.length -1;
   }  
   
+ // function play() {
+//    //Set the current time for the audio file to the beginning
+ //   soundFile.currentTime = 0.01;
+ //   soundFile.volume = volume;
+ 
+    //Due to a bug in Firefox, the audio needs to be played after a delay
+   // setTimeout(function(){soundFile.play();},1);
+ //}
   // display data based on array index
   quote.innerHTML = data[itemNumber].quote;
   //emoji.innerHTML = data[itemNumber].emoji;
   bgImage.style.backgroundImage = data[itemNumber].backgroundImage;
   cards.style.content = data[itemNumber].image;
+  audio.src = data[itemNumber].audio;
+  audio.play();
 });
 
 // listen for clicks on random button
@@ -117,6 +140,8 @@ randButton.addEventListener('click', () => {
   //emoji.innerHTML = data[randomNumber].emoji;
   bgImage.style.backgroundImage = data[randomNumber].backgroundImage;
   cards.style.content = data[randomNumber].image;
+  audio.src = data[itemNumber].audio;
+  audio.play();
   
 });
 
@@ -143,6 +168,8 @@ document.addEventListener('keyup', (event) => {
   //emoji.innerHTML = data[itemNumber].image;
   bgImage.style.backgroundImage = data[itemNumber].backgroundImage;
   cards.style.content = data[itemNumber].image;
+  audio.src = data[itemNumber].audio;
+  audio.play();
     
   }
   
@@ -163,6 +190,8 @@ document.addEventListener('keyup', (event) => {
   //emoji.innerHTML = data[itemNumber].emoji;
   bgImage.style.backgroundImage = data[itemNumber].backgroundImage;
   cards.style.content = data[itemNumber].image;
+  audio.src = data[itemNumber].audio;
+  audio.play();
   }
   
   // Random Spacebar
@@ -175,7 +204,9 @@ document.addEventListener('keyup', (event) => {
     quote.innerHTML = data[randomNumber].quote;
    //emoji.innerHTML = data[randomNumber].emoji;
     bgImage.style.backgroundImage = data[randomNumber].backgroundImage;
-    cards.style.content = data[itemNumber].image;
+    cards.style.content = data[randomNumber].image;
+    audio.src = data[itemNumber].audio;
+    audio.play();
   
   }
   
