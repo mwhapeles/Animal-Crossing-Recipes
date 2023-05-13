@@ -2,19 +2,19 @@
 //console.log('hello');
 const data = [
   {
-  
+  backgroundImage: `url(assets/animal crossing background.avif)`,
    image: `url(assets/aji-fry.jpg)`
   }, 
   {
-  
+    backgroundImage: `url(assets/animal crossing background.avif)`,
    image: `url(assets/Amalgia+Gratin+(Turkey+Day).png)`
   },  
   {
-  
+    backgroundImage: `url(assets/animal crossing background.avif)`,
    image: `url(assets/Amalgia+Seafood+Salad.png)`
   },
   {
-  
+    backgroundImage: `url(assets/animal crossing background.avif)`,
     image: `url(assets/Anchoas al ajillo.jpg)`
   }
 ];
@@ -25,7 +25,7 @@ Quote and Emoji
 // blockquote
 //const quote = document.querySelector('blockquote');
 // emoji
-const card = document.querySelector('p');
+const card = document.querySelector('img');
 // background
 //const bgImage = document.querySelector('body');
 
@@ -66,7 +66,7 @@ nextButton.addEventListener("click", () => {
  // quote.innerHTML = data[itemNumber].quote;
   //emoji.innerHTML = data[itemNumber].emoji;
   //bgImage.style.backgroundImage = data[itemNumber].image;
- // card.innerHTML = data[itemNumber].card;
+  card.innerHTML = data[itemNumber].card;
 });
   
 // listen for clicks on previous button
