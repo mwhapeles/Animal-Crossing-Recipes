@@ -4,44 +4,44 @@ const data = [
 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
    image: `url(assets/appleTart.png)`,
-   audio: `url(assets/animalCrossingTalking.mp3)`
+   audio: `url(assets/animalCrossingDialogue.mp3)`
   }, 
   {
  
    image: `url(assets/clamChowder.png)`,
    backgroundImage: `url(assets/backgroundImage.jpg)`
    ,
-   audio: `url(assets/animalCrossingTalking.mp3)`
+   audio: `url(assets/animalCrossingDialogue.mp3)`
 
   },  
   {
 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
    image: `url(assets/anchoasAlAjillo.png)`,
-   audio: `url(assets/animalCrossingTalking.mp3)`
+   audio: `url(assets/animalCrossingDialogue.mp3)`
   },
   {
   
     backgroundImage: `url(assets/backgroundImage.jpg)`,
     image: `url(assets/applePie.png)`,
-    audio: `url(assets/animalCrossingTalking.mp3)`
+    audio: `url(assets/animalCrossingDialogue.mp3)`
   }, 
 
   {
   
     backgroundImage: `url(assets/backgroundImage.jpg)`,
     image: `url(assets/bakedPotato.png)`,
-    audio: `url(assets/animalCrossingTalking.mp3)`
+    audio: `url(assets/animalCrossingDialogue.mp3)`
   },
   {backgroundImage: `url(assets/backgroundImage.jpg)`,
   image: `url(assets/wheatDIY.png)`,
-  audio: `url(assets/animalCrossingTalking.mp3)`
+  audio: `url(assets/animalCrossingDialogue.mp3)`
 },
 {
  
   image: `url(assets/gratin.png)`,
   backgroundImage: `url(assets/backgroundImage.jpg)`,
-  audio: `url(assets/animalCrossingTalking.mp3)`
+  audio: `url(assets/animalCrossingDialogue.mp3)`
 
  }
 ];
@@ -205,7 +205,7 @@ document.addEventListener('keyup', (event) => {
    //emoji.innerHTML = data[randomNumber].emoji;
     bgImage.style.backgroundImage = data[randomNumber].backgroundImage;
     cards.style.content = data[randomNumber].image;
-    audio.src = data[itemNumber].audio;
+    audio.src = data[randomNumber].audio;
     audio.play();
   
   }

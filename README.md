@@ -25,3 +25,4 @@ Majority of recipes: Nintendo Life URL(https://www.nintendolife.com/guides/anima
   - Barred Knifejaw
   - Pointing Fingers
 - Background image URL (https://www.freepik.com/vectors/pink-gingham)
+-  Dialogue Sound URL (https://tuna.voicemod.net/sound/cdb30cef-8931-411a-8d46-3ff24fb2c828)
