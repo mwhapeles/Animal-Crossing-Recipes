@@ -3,7 +3,7 @@ const data = [
   {
    //quote: `“Be like a mountain.”`, 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
-   image: `url(assets/Amalgia+Seafood+Salad.png)`
+   image: `url(assets/appleTart.png)`
   }, 
   {
    //quote: `“Brave the oceans.”`, 
@@ -33,8 +33,11 @@ const data = [
     //quote: `"I am a risk"`,
     //emoji: `🦅`, 
     backgroundImage: `url(assets/backgroundImage.jpg)`,
-    image: `url(assets/BakedPotato.jpg)`
-  }
+    image: `url(assets/bakedPotato.png)`
+  },
+  {backgroundImage: `url(assets/backgroundImage.jpg)`,
+  image: `url(assets/wheatDIY.png)`
+}
 ];
 
 /*
