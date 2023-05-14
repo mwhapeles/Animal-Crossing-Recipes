@@ -4,46 +4,45 @@ const data = [
 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
    image: `url(assets/appleTart.png)`,
-   audio: `url(assets/animalCrossingDialogue.mp3)`
+   audio: "assets/AnimalCrossingSound.mp3"
   }, 
   {
  
    image: `url(assets/clamChowder.png)`,
    backgroundImage: `url(assets/backgroundImage.jpg)`
    ,
-   audio: `url(assets/animalCrossingDialogue.mp3)`
+   audio: "assets/AnimalCrossingSound.mp3"
 
   },  
   {
 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
    image: `url(assets/anchoasAlAjillo.png)`,
-   audio: `url(assets/animalCrossingDialogue.mp3)`
+   audio: "assets/AnimalCrossingSound.mp3"
   },
   {
   
     backgroundImage: `url(assets/backgroundImage.jpg)`,
     image: `url(assets/applePie.png)`,
-    audio: `url(assets/animalCrossingDialogue.mp3)`
+    audio:  "assets/AnimalCrossingSound.mp3"
   }, 
 
   {
   
     backgroundImage: `url(assets/backgroundImage.jpg)`,
     image: `url(assets/bakedPotato.png)`,
-    audio: `url(assets/animalCrossingDialogue.mp3)`
+    audio: "assets/AnimalCrossingSound.mp3"
   },
   {backgroundImage: `url(assets/backgroundImage.jpg)`,
   image: `url(assets/wheatDIY.png)`,
-  audio: `url(assets/animalCrossingDialogue.mp3)`
+  audio:  "assets/AnimalCrossingSound.mp3"
 },
 {
  
   image: `url(assets/gratin.png)`,
   backgroundImage: `url(assets/backgroundImage.jpg)`,
-  audio: `url(assets/animalCrossingDialogue.mp3)`
-
- }
+  audio:  "assets/AnimalCrossingSound.mp3"
+}
 ];
 
 /*
