@@ -7,7 +7,7 @@ const data = [
    audio: "assets/AnimalCrossingSound.mp3"
   }, 
   {
-    quote: "Yes!", 
+    quote: "This gives me an idea...", 
    image: `url(assets/clamChowder.png)`,
    backgroundImage: `url(assets/backgroundImage.jpg)`
    ,
@@ -21,7 +21,7 @@ const data = [
    audio: "assets/AnimalCrossingSound.mp3"
   },
   {
-    quote: "Yes!", 
+    quote: "This gives me an idea...", 
     backgroundImage: `url(assets/backgroundImage.jpg)`,
     image: `url(assets/applePie.png)`,
     audio:  "assets/AnimalCrossingSound.mp3"
