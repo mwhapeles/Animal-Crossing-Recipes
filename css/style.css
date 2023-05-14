@@ -1,7 +1,8 @@
 /* Stylesheet */
 
 /* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url(nunito.css);
+
 
 body {  
   /* Horizontal and Vertical Center */
@@ -9,6 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  align-content: space-around;
   
   /* Extend full height of browser  */
   height: 100vh;
@@ -21,7 +23,10 @@ body {
 /* Apply Font */
 main {
   display: flex;
-  align-content: center;
+  align-content: baseline;
+  justify-content: center;
+  align-items: flex-end;
+
   margin-top: 10%;
   margin-bottom: 05;
   font-family: 'Nunito';
@@ -32,12 +37,15 @@ max-height: 60%;
 min-width: 60%;
 min-height: 60%;
 
+
   /* Add contrast to text */
   background-color: rgba(255, 255, 255, 0.25);
 }
 
 
-nav{display: flex;
+
+nav{margin-top:-7%;
+  display: flex;
   justify-content: center;
   align-items: center;
   max-width: 40%;
@@ -59,4 +67,17 @@ img {
   max-width: 20%;
   max-height:20%;
 
+}
+
+blockquote{
+  background-color:#FFFCE2;
+margin-top:2%;
+padding-left: 3%;
+padding-right: 3%;
+padding-top: 1%;
+padding-bottom: 1%;
+border-radius: 50%;
+  font-family: 'Nunito-Regular';
+  font-size: 2em ;
+  color:#475149;
 }

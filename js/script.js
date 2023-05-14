@@ -1,13 +1,13 @@
 /* Data to Show*/
 const data = [
   {
-
+    quote: "Yes!", 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
    image: `url(assets/appleTart.png)`,
    audio: "assets/AnimalCrossingSound.mp3"
   }, 
   {
- 
+    quote: "Yes!", 
    image: `url(assets/clamChowder.png)`,
    backgroundImage: `url(assets/backgroundImage.jpg)`
    ,
@@ -15,25 +15,27 @@ const data = [
 
   },  
   {
-
+    quote: "Yes!", 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
    image: `url(assets/anchoasAlAjillo.png)`,
    audio: "assets/AnimalCrossingSound.mp3"
   },
   {
-  
+    quote: "Yes!", 
     backgroundImage: `url(assets/backgroundImage.jpg)`,
     image: `url(assets/applePie.png)`,
     audio:  "assets/AnimalCrossingSound.mp3"
   }, 
 
   {
-  
+    quote: "Yes!", 
     backgroundImage: `url(assets/backgroundImage.jpg)`,
     image: `url(assets/bakedPotato.png)`,
     audio: "assets/AnimalCrossingSound.mp3"
   },
-  {backgroundImage: `url(assets/backgroundImage.jpg)`,
+  {
+    quote: "Yes!", 
+    backgroundImage: `url(assets/backgroundImage.jpg)`,
   image: `url(assets/wheatDIY.png)`,
   audio:  "assets/AnimalCrossingSound.mp3"
 },
@@ -41,7 +43,8 @@ const data = [
  
   image: `url(assets/gratin.png)`,
   backgroundImage: `url(assets/backgroundImage.jpg)`,
-  audio:  "assets/AnimalCrossingSound.mp3"
+  audio:  "assets/AnimalCrossingSound.mp3",
+  quote: "Yes!"
 }
 ];
 
@@ -61,7 +64,7 @@ const audio = document.querySelector('audio');
 
 
 // Check-Check: change text
-
+quote.innerHtml = "Yes!" ;
 // Check-Check: change emoji text
 //emoji.innerHTML = "👍️";
 // Check-Check: background image
