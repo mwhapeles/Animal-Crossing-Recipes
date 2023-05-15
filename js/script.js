@@ -15,7 +15,7 @@ const data = [
 
   },  
   {
-    quote: "Yes!", 
+    quote: "Look what I made...", 
    backgroundImage: `url(assets/backgroundImage.jpg)`,
    image: `url(assets/anchoasAlAjillo.png)`,
    audio: "assets/AnimalCrossingSound.mp3"
@@ -28,13 +28,13 @@ const data = [
   }, 
 
   {
-    quote: "Yes!", 
+    quote: "Wow!", 
     backgroundImage: `url(assets/backgroundImage.jpg)`,
     image: `url(assets/bakedPotato.png)`,
     audio: "assets/AnimalCrossingSound.mp3"
   },
   {
-    quote: "Yes!", 
+    quote: "The flavors are perfectly balanced!", 
     backgroundImage: `url(assets/backgroundImage.jpg)`,
   image: `url(assets/wheatDIY.png)`,
   audio:  "assets/AnimalCrossingSound.mp3"
@@ -44,7 +44,7 @@ const data = [
   image: `url(assets/gratin.png)`,
   backgroundImage: `url(assets/backgroundImage.jpg)`,
   audio:  "assets/AnimalCrossingSound.mp3",
-  quote: "Yes!"
+  quote: "Wow!"
 }
 ];
 
